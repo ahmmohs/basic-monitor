@@ -28,7 +28,7 @@ def initialize(url):
         r = requests.get(url, proxies=proxies)
         data = json.loads(r.text)
         
-        # you will have to know how to read throuh json or dicts in python
+        # you will have to know how to read through json or dicts in python
         # in order to traverse through the data. you can find examples online
         for sale in data['flashsales']:
             # storing all ids found in the URL to our list of items

@@ -10,9 +10,6 @@ import time
 # this api url is a given. normally you will have to do some "hunting" for api URLs on certain sites.
 url = 'https://frenzy.shopifyapps.com/api/flashsales'
 
-# discord webhook to send your message to
-webhook = 'https://discordapp.com/api/webhooks/437424451890577422/xzJuZAkw8ZKIQmE1KrnuRmHkn_Y9WLpeLbTuvoQKPJetzQsGvDGQFQVfCMWAYCMuoyjC'
-
 # a list that will store all current item ids that were found
 items = []
 

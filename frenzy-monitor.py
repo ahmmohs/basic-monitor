@@ -61,7 +61,7 @@ def monitor(url):
                         dropzone = 'Worldwide'
                     else:
                         dropzone =  (str(dropzone[0]['lat'] + ', ' + str(dropzone[0]['lng']))
-                    print(title, image, desc, available, dropzone)
+                    print("New item found:",title, image, desc, available, dropzone)
             time.sleep(5)
         except:
             pass

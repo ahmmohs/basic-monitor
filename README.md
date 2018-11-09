@@ -8,6 +8,8 @@ https://birdie0.github.io/discord-webhooks-guide/discord_webhook.html
 
 # Requirements
 pip install requests
+
 pip install proxy_manager
+
 
 You'll need some proxies in a file called proxies.txt in the same directory
